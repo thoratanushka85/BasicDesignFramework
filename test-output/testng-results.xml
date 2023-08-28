@@ -1,39 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-28T12:46:39 IST" name="Loan Deparement" finished-at="2023-08-28T12:46:39 IST" duration-ms="155">
+  <suite started-at="2023-08-28T14:01:56 IST" name="CarLoan" finished-at="2023-08-28T14:01:56 IST" duration-ms="65">
     <groups>
     </groups>
-    <test started-at="2023-08-28T12:46:39 IST" name="PersonalLoan" finished-at="2023-08-28T12:46:39 IST" duration-ms="44">
-      <class name="TestNg.Day1">
-        <test-method signature="WebLoginpersonalloan()[pri:0, instance:TestNg.Day1@e350b40]" started-at="2023-08-28T12:46:39 IST" name="WebLoginpersonalloan" finished-at="2023-08-28T12:46:39 IST" duration-ms="6" status="PASS">
+    <test started-at="2023-08-28T14:01:56 IST" name="CarLoanTestcases" finished-at="2023-08-28T14:01:56 IST" duration-ms="65">
+      <class name="TestNg.Day4">
+        <test-method signature="APIRestLogin()[pri:0, instance:TestNg.Day4@4145bad8]" started-at="2023-08-28T14:01:56 IST" name="APIRestLogin" finished-at="2023-08-28T14:01:56 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- WebLoginpersonalloan -->
-        <test-method signature="personalLoan()[pri:0, instance:TestNg.Day1@e350b40]" started-at="2023-08-28T12:46:39 IST" name="personalLoan" finished-at="2023-08-28T12:46:39 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- APIRestLogin -->
+        <test-method signature="MobileLoginCarLoan()[pri:0, instance:TestNg.Day4@4145bad8]" started-at="2023-08-28T14:01:56 IST" name="MobileLoginCarLoan" finished-at="2023-08-28T14:01:56 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- personalLoan -->
-      </class> <!-- TestNg.Day1 -->
-      <class name="TestNg.Day2">
-        <test-method signature="personalLoan()[pri:0, instance:TestNg.Day2@5ab956d7]" started-at="2023-08-28T12:46:39 IST" name="personalLoan" finished-at="2023-08-28T12:46:39 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- MobileLoginCarLoan -->
+        <test-method signature="carloan()[pri:0, instance:TestNg.Day4@4145bad8]" started-at="2023-08-28T14:01:56 IST" name="carloan" finished-at="2023-08-28T14:01:56 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- personalLoan -->
-      </class> <!-- TestNg.Day2 -->
-    </test> <!-- PersonalLoan -->
-    <test started-at="2023-08-28T12:46:39 IST" name="HomeLoan" finished-at="2023-08-28T12:46:39 IST" duration-ms="7">
-      <class name="TestNg.Day3">
-        <test-method signature="HomeLoan()[pri:0, instance:TestNg.Day3@72035809]" started-at="2023-08-28T12:46:39 IST" name="HomeLoan" finished-at="2023-08-28T12:46:39 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- carloan -->
+        <test-method signature="webLoginCarLoan()[pri:0, instance:TestNg.Day4@4145bad8]" started-at="2023-08-28T14:01:56 IST" name="webLoginCarLoan" finished-at="2023-08-28T14:01:56 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HomeLoan -->
-        <test-method signature="webLoginHomeLoan()[pri:0, instance:TestNg.Day3@72035809]" started-at="2023-08-28T12:46:39 IST" name="webLoginHomeLoan" finished-at="2023-08-28T12:46:39 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- webLoginHomeLoan -->
-      </class> <!-- TestNg.Day3 -->
-    </test> <!-- HomeLoan -->
-  </suite> <!-- Loan Deparement -->
+        </test-method> <!-- webLoginCarLoan -->
+      </class> <!-- TestNg.Day4 -->
+    </test> <!-- CarLoanTestcases -->
+  </suite> <!-- CarLoan -->
 </testng-results>
