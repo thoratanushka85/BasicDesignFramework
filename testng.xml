@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="CarLoan">
-  <test  name="CarLoanTestcases">
-    <classes>
+<suite name="Suite">
+  <test  name="Test">
+    <packages>
+      <package name="TestNg"/>
       
-      <class name="TestNg.Day4"/>
- 
-    </classes>
+    </packages>
   </test> <!-- Test -->
-</suite> <!-- CarLoan -->
+</suite> <!-- Suite -->

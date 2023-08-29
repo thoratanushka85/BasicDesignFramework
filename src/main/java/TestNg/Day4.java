@@ -12,12 +12,12 @@ public class Day4 {
 	public void webLoginCarLoan() {
 		System.out.println(" in selenium");
 	}
-	
+
 	@Test
 	public void MobileLoginCarLoan() {
 		System.out.println(" welcome to appium");
 	}
-	
+
 	@Test
 	public void MobilesignIn() {
 		System.out.println(" welcome to appium1");
@@ -26,6 +26,19 @@ public class Day4 {
 	public void MobileSignout() {
 		System.out.println(" welcome to appium2");
 	}
+
+
+	@Test
+	public void MobileLogin() {
+		System.out.println(" welcome to appium1");
+	}
+
+	@Test
+	public void MobileLogout() {
+		System.out.println(" welcome to appium");
+	}
+
+
 	@Test
 	public void APIRestLogin() {
 		System.out.println("api login");

@@ -8,5 +8,5 @@ public class Day2 {
 	public void personalLoan() {
 		System.out.println("welcome to personal loan");
 	}
-	
+
 }

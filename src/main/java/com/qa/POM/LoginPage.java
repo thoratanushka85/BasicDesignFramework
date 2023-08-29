@@ -7,13 +7,13 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 
-	@FindBy(xpath="//input[@id='email']")
+	@FindBy(xpath = "//input[@id='email']")
 	private WebElement txt_EmailId;
 
-	@FindBy(xpath="//input[@name='password']")
+	@FindBy(xpath = "//input[@name='password']")
 	private WebElement txt_Password;
 
-	@FindBy(xpath="//input[@value='Log in']")
+	@FindBy(xpath = "//input[@value='Log in']")
 	private WebElement btn_Login;
 
 	public LoginPage(WebDriver driver) {
