@@ -17,6 +17,15 @@ public class Day4 {
 	public void MobileLoginCarLoan() {
 		System.out.println(" welcome to appium");
 	}
+	
+	@Test
+	public void MobilesignIn() {
+		System.out.println(" welcome to appium1");
+	}
+	@Test
+	public void MobileSignout() {
+		System.out.println(" welcome to appium2");
+	}
 	@Test
 	public void APIRestLogin() {
 		System.out.println("api login");
