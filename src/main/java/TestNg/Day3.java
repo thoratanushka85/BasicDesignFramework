@@ -7,6 +7,7 @@ public class Day3 {
 	public void HomeLoan() {
 		System.out.println(" welcome to home loan");
 	}
+
 	@Test
 	public void webLoginHomeLoan() {
 		System.out.println("welcome home weblogin");

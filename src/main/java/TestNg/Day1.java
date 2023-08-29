@@ -8,7 +8,7 @@ public class Day1 {
 	public void personalLoan() {
 		System.out.println("welcome to car loan deaprement");
 	}
-	
+
 	@Test
 	public void WebLoginpersonalloan() {
 		System.out.println("welcome to weblogin");
