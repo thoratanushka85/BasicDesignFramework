@@ -1,118 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-29T19:10:16 IST" name="Suite" finished-at="2023-08-29T19:10:16 IST" duration-ms="193">
+  <suite started-at="2023-08-30T13:59:16 IST" name="Default suite" finished-at="2023-08-30T13:59:16 IST" duration-ms="70">
     <groups>
-      <group name="smoke">
-        <method signature="Day4.MobileLoginCarLoan()[pri:0, instance:TestNg.Day4@449a4f23]" name="MobileLoginCarLoan" class="TestNg.Day4"/>
-        <method signature="Day4.carloan()[pri:0, instance:TestNg.Day4@449a4f23]" name="carloan" class="TestNg.Day4"/>
-        <method signature="Day4.MobileLoginCarLoan()[pri:0, instance:TestNg.Day4@7ce69770]" name="MobileLoginCarLoan" class="TestNg.Day4"/>
-        <method signature="Day4.carloan()[pri:0, instance:TestNg.Day4@7ce69770]" name="carloan" class="TestNg.Day4"/>
-      </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-08-29T19:10:16 IST" name="Test" finished-at="2023-08-29T19:10:16 IST" duration-ms="106">
-      <class name="TestNg.Day1">
-        <test-method signature="WebLoginpersonalloan()[pri:0, instance:TestNg.Day1@4145bad8]" started-at="2023-08-29T19:10:16 IST" name="WebLoginpersonalloan" finished-at="2023-08-29T19:10:16 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- WebLoginpersonalloan -->
-        <test-method signature="personalLoan()[pri:0, instance:TestNg.Day1@4145bad8]" started-at="2023-08-29T19:10:16 IST" name="personalLoan" finished-at="2023-08-29T19:10:16 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- personalLoan -->
-      </class> <!-- TestNg.Day1 -->
-      <class name="TestNg.Day2">
-        <test-method signature="personalLoan()[pri:0, instance:TestNg.Day2@6e6f2380]" started-at="2023-08-29T19:10:16 IST" name="personalLoan" finished-at="2023-08-29T19:10:16 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- personalLoan -->
-      </class> <!-- TestNg.Day2 -->
-      <class name="TestNg.Day3">
-        <test-method signature="HomeLoan(java.lang.String)[pri:0, instance:TestNg.Day3@76a4ebf2]" started-at="2023-08-29T19:10:16 IST" name="HomeLoan" finished-at="2023-08-29T19:10:16 IST" duration-ms="2" status="PASS">
+    <test started-at="2023-08-30T13:59:16 IST" name="Default test" finished-at="2023-08-30T13:59:16 IST" duration-ms="70">
+      <class name="TestNg.DataProvider1">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:TestNg.DataProvider1@2e8c1c9b]" started-at="2023-08-30T13:59:16 IST" name="login" data-provider="getData" finished-at="2023-08-30T13:59:16 IST" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[quclickacademy.com]]>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HomeLoan -->
-        <test-method signature="webLoginHomeLoan()[pri:0, instance:TestNg.Day3@76a4ebf2]" started-at="2023-08-29T19:10:16 IST" name="webLoginHomeLoan" finished-at="2023-08-29T19:10:16 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- webLoginHomeLoan -->
-      </class> <!-- TestNg.Day3 -->
-      <class name="TestNg.Day4">
-        <test-method signature="MobilesignIn()[pri:0, instance:TestNg.Day4@449a4f23]" started-at="2023-08-29T19:10:16 IST" name="MobilesignIn" finished-at="2023-08-29T19:10:16 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobilesignIn -->
-        <test-method signature="APIRestLogin(java.lang.String)[pri:0, instance:TestNg.Day4@449a4f23]" started-at="2023-08-29T19:10:16 IST" name="APIRestLogin" finished-at="2023-08-29T19:10:16 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:TestNg.DataProvider1@2e8c1c9b]" started-at="2023-08-30T13:59:16 IST" name="login" data-provider="getData" finished-at="2023-08-30T13:59:16 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[quclickacademy.com]]>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- APIRestLogin -->
-        <test-method signature="MobileLoginCarLoan()[pri:0, instance:TestNg.Day4@449a4f23]" started-at="2023-08-29T19:10:16 IST" name="MobileLoginCarLoan" finished-at="2023-08-29T19:10:16 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileLoginCarLoan -->
-        <test-method signature="carloan()[pri:0, instance:TestNg.Day4@449a4f23]" started-at="2023-08-29T19:10:16 IST" name="carloan" finished-at="2023-08-29T19:10:16 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- carloan -->
-        <test-method signature="webLoginCarLoan()[pri:0, instance:TestNg.Day4@449a4f23]" started-at="2023-08-29T19:10:16 IST" name="webLoginCarLoan" finished-at="2023-08-29T19:10:16 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- webLoginCarLoan -->
-        <test-method signature="MobileSignout()[pri:0, instance:TestNg.Day4@449a4f23]" started-at="2023-08-29T19:10:16 IST" name="MobileSignout" finished-at="2023-08-29T19:10:16 IST" depends-on-methods="TestNg.Day4.MobilesignIn" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileSignout -->
-      </class> <!-- TestNg.Day4 -->
-    </test> <!-- Test -->
-    <test started-at="2023-08-29T19:10:16 IST" name="carLoan" finished-at="2023-08-29T19:10:16 IST" duration-ms="12">
-      <class name="TestNg.Day4">
-        <test-method signature="MobilesignIn()[pri:0, instance:TestNg.Day4@7ce69770]" started-at="2023-08-29T19:10:16 IST" name="MobilesignIn" finished-at="2023-08-29T19:10:16 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobilesignIn -->
-        <test-method signature="APIRestLogin(java.lang.String)[pri:0, instance:TestNg.Day4@7ce69770]" started-at="2023-08-29T19:10:16 IST" name="APIRestLogin" finished-at="2023-08-29T19:10:16 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:TestNg.DataProvider1@2e8c1c9b]" started-at="2023-08-30T13:59:16 IST" name="login" data-provider="getData" finished-at="2023-08-30T13:59:16 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[carLoan.com]]>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passowrd3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- APIRestLogin -->
-        <test-method signature="MobileLoginCarLoan()[pri:0, instance:TestNg.Day4@7ce69770]" started-at="2023-08-29T19:10:16 IST" name="MobileLoginCarLoan" finished-at="2023-08-29T19:10:16 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileLoginCarLoan -->
-        <test-method signature="carloan()[pri:0, instance:TestNg.Day4@7ce69770]" started-at="2023-08-29T19:10:16 IST" name="carloan" finished-at="2023-08-29T19:10:16 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- carloan -->
-        <test-method signature="webLoginCarLoan()[pri:0, instance:TestNg.Day4@7ce69770]" started-at="2023-08-29T19:10:16 IST" name="webLoginCarLoan" finished-at="2023-08-29T19:10:16 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- webLoginCarLoan -->
-        <test-method signature="MobileSignout()[pri:0, instance:TestNg.Day4@7ce69770]" started-at="2023-08-29T19:10:16 IST" name="MobileSignout" finished-at="2023-08-29T19:10:16 IST" depends-on-methods="TestNg.Day4.MobilesignIn" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileSignout -->
-      </class> <!-- TestNg.Day4 -->
-    </test> <!-- carLoan -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- login -->
+      </class> <!-- TestNg.DataProvider1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

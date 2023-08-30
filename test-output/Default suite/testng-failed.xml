@@ -3,16 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.TestClass.Test1">
+      <class name="TestNg.DataProvider1">
         <methods>
-          <include name="initializeBrowser"/>
-          <include name="validateTitle"/>
           <include name="login"/>
-          <include name="captureScreenshot"/>
-          <include name="openBrowser"/>
-          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- com.qa.TestClass.Test1 -->
+      </class> <!-- TestNg.DataProvider1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
