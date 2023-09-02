@@ -3,10 +3,8 @@ package TestNg;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-
-
 public class Day3 {
-	@Parameters({"URL"})
+	@Parameters({ "URL" })
 	@Test
 	public void HomeLoan(String urlname) {
 		System.out.println(" welcome to home loan");

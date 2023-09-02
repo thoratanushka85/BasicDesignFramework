@@ -1,5 +1,6 @@
 package TestNg;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class Day1 {
@@ -7,6 +8,7 @@ public class Day1 {
 	@Test
 	public void personalLoan() {
 		System.out.println("welcome to car loan deaprement");
+		//Assert.assertTrue(false);
 	}
 
 	@Test

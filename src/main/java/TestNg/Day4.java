@@ -4,17 +4,17 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class Day4 {
-	@Test(groups ="smoke")
+	@Test(groups = "smoke")
 	public void carloan() {
 		System.out.println("welcome to car loan");
 	}
 
-	@Test(timeOut =4000)
+	@Test(timeOut = 4000)
 	public void webLoginCarLoan() {
 		System.out.println(" in selenium");
 	}
 
-	@Test(groups="smoke")
+	@Test(groups = "smoke")
 	public void MobileLoginCarLoan() {
 		System.out.println(" welcome to appium");
 	}
@@ -23,23 +23,23 @@ public class Day4 {
 	public void MobilesignIn() {
 		System.out.println(" welcome to appium1");
 	}
-	@Test(dependsOnMethods ={"MobilesignIn"})
+
+	@Test(dependsOnMethods = { "MobilesignIn" })
 	public void MobileSignout() {
 		System.out.println(" welcome to appium2");
 	}
 
-
-	@Test(enabled =false)
+	@Test(enabled = false)
 	public void MobileLogin() {
 		System.out.println(" welcome to appium1");
 	}
 
-	@Test(enabled=false)
+	@Test(enabled = false)
 	public void MobileLogout() {
 		System.out.println(" welcome to appium");
 	}
 
-    @Parameters({"URL"})
+	@Parameters({ "URL" })
 	@Test
 	public void APIRestLogin(String namevalue) {
 		System.out.println("api login");
