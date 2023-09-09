@@ -8,6 +8,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Properties;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.OutputType;
@@ -52,6 +53,16 @@ public class UtilityClass {
 		// System.out.println(Dest);
 		FileHandler.copy(src, Dest);
 
+	}
+
+	public String getnewScreenShot(String TestCaseName,WebDriver driver) throws IOException {
+		
+		TakesScreenshot ts = (TakesScreenshot)driver;
+		File src = ts.getScreenshotAs(OutputType.FILE);
+		File file = new File(System.getProperty("user.dir")+"\\reports\\"+TestCaseName+".png");
+		FileUtils.copyFile(src, file);
+		return System.getProperty("user.dir")+"\\reports\\"+TestCaseName+".png";
+		
 	}
 
 }

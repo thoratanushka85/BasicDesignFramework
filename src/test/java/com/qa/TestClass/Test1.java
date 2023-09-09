@@ -40,7 +40,7 @@ public class Test1 extends Base {
 		loginpage.ClickloginButton();
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 1,retryAnalyzer = Retry.class)   //to retry the test case again re-run
 	public void validateEmailId() throws EncryptedDocumentException, IOException {
 		TestcaseID = 1;
 		String ActulaEmailId = logoutpage.getEmailId();
